@@ -1,0 +1,54 @@
+*{
+    margin: 0 auto;
+}
+#game{
+    width: 35rem;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: bisque;
+}
+img{
+  position: relative;
+  left: 25%;
+  height: 60%;
+  top: 20px;
+}
+#dugmici{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  padding: 10px;
+}
+#tacna{
+  background-color: LawnGreen !important;
+  color: black;
+}
+#netacna{
+  background-color: tomato !important;
+  color: black;
+
+}
+#score{
+  text-align: center;
+  width: 35rem;
+  height: 100px;
+  color: black;
+  font-size: 5rem;
+}
+.opcija {
+  outline: none !important;
+  box-shadow: none !important;
+}
+@media only screen and (max-width: 650px){
+  #game{
+    width: 80%;
+    height: auto;
+  }
+  #dugmici{
+    flex-direction: column-reverse;
+  }
+  .opcija{
+    margin-top: 10px !important;
+  }
+}
